@@ -1,5 +1,6 @@
 package org.example.reactive.student;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 @Entity

@@ -15,7 +15,6 @@ public class School {
     @OneToMany(
             mappedBy = "school"
     )
-    @JsonBackReference
     List<Student> students;
 
     public School() {
