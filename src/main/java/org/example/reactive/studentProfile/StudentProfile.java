@@ -1,6 +1,7 @@
-package org.example.reactive.student;
+package org.example.reactive.studentProfile;
 
 import jakarta.persistence.*;
+import org.example.reactive.student.Student;
 
 @Entity
 @Table

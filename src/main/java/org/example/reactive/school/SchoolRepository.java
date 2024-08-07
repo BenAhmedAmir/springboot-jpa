@@ -1,4 +1,4 @@
-package org.example.reactive.student;
+package org.example.reactive.school;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,7 +1,7 @@
-package org.example.reactive.student;
+package org.example.reactive.school;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
+import org.example.reactive.student.Student;
 
 import java.util.List;
 

@@ -1,7 +1,8 @@
 package org.example.reactive.student;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
+import org.example.reactive.school.School;
+import org.example.reactive.studentProfile.StudentProfile;
 
 @Entity
 @Table(name = "students")

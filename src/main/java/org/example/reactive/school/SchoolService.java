@@ -1,4 +1,4 @@
-package org.example.reactive.student;
+package org.example.reactive.school;
 
 import org.springframework.stereotype.Service;
 

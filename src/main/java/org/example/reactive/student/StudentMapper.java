@@ -1,5 +1,6 @@
 package org.example.reactive.student;
 
+import org.example.reactive.school.School;
 import org.springframework.stereotype.Service;
 
 @Service
