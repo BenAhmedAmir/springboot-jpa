@@ -9,6 +9,9 @@ public class StudentMapper {
         return new StudentResponseDTO(student.getFirstname(), student.getLastname(), student.getEmail());
     }
     public Student toEntity(StudentDTO studentDTO) {
+        if (studentDTO == null) {
+            throw new NullPointerException("studentDTO is null");
+        }
         var student = new Student();
         student.setFirstname(studentDTO.firstname());
         student.setLastname(studentDTO.lastname());
